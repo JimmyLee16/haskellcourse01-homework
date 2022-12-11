@@ -1,3 +1,4 @@
+:l baitap1
 -- Question 1
 -- Write a multiline comment below.
 {- Chao moi nguoi
@@ -5,7 +6,7 @@ cai nay kho hoc qua
 T_T-}
 -- Question 2
 -- Define a function that takes a value and multiplies it by 3.
-multipliesby3 x = x * 3
+multiby3 x = x * 3
 -- Question 3
 -- Define a function that calculates the area of a circle.
 areaofcircle r = pi * r^2
