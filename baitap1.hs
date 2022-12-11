@@ -1,4 +1,3 @@
-:l baitap1
 -- Question 1
 -- Write a multiline comment below.
 {- Chao moi nguoi
