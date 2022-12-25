@@ -82,12 +82,15 @@ f4' x y
 -- let expression inside a where block.
 f5 :: Float -> Float -> String
 f5 x y =
-   let sumofsqr = show (sumofsqr) where sumofsqr = (x + y)^2
-   in "sumofsqr: " ++ (sumofsqr) ++ " and quotient:" ++ (quotient)
-   where 
-    quotient
-     |y /= 0 = let quotient = (x/y)^2
-              in show (quotient)
-     |otherwise = "no result"    
+   let 
+    sumofsqr = tichthuong
+     where
+      tichthuong
+       | y/=0 = let 
+              tich = (x*y)^2
+              thuong = (x/y)^2
+              in show(tich+thuong)
+       | otherwise = "cant calculates"
+   in "if we take 2 number " ++ show(x) ++ " and " ++ show(y) ++ " then sumofsqr: " ++ show(sumofsqr) 
                
                
