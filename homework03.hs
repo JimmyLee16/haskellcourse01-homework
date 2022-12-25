@@ -82,11 +82,12 @@ f4' x y
 -- let expression inside a where block.
 f5 :: Float -> Float -> String
 f5 x y =
-   let sumsqrt = show (sqrt sumsqrt) where sumsqrt = x*y
-   in "sumsqrt: " ++ (sumsqrt) ++ " and quotsqrt:" ++ (quotsqrt)
+   let sumofsqr = show (sumofsqr) where sumofsqr = (x + y)^2
+   in "sumofsqr: " ++ (sumofsqr) ++ " and quotient:" ++ (quotient)
    where 
-    quotsqrt
-     |y /= 0 = let quotient = x/y
-              in show (sqrt quotient)
+    quotient
+     |y /= 0 = let quotient = (x/y)^2
+              in show (quotient)
      |otherwise = "no result"    
+               
                
