@@ -11,7 +11,7 @@ monthlyuse kW h y =
   then "bigger"
   else
    if kW * h * 30 == y
-    then "bigger"
+    then "equal"
     else "smaller"
 {-case 2: guard & where-}
 monthlyuse' :: Float->Float->Float->[Char]
