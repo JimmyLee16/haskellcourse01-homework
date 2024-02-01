@@ -14,4 +14,4 @@ areaofcircle r = pi * r^2
 volumeofcylinder r h = areaofcircle r * h
 -- Question 5
 -- Define a function that takes the height and radius of a cylinder and checks if the volume is greater than or equal to 42.
-greaterthan42 r h = volumeofcylinder r h >= 42
+greaterthan42 r h = volumeofcylinder r h >= 421
